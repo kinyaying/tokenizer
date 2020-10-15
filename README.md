@@ -15,7 +15,7 @@ jsx-tokenizer is written to be the example to show how to use finite-state machi
 ```javascript
 const { tokenizer } = require('jsx-tokenizer')
 let sourceCode =
-  '<h1    id="title"     style="background: green;"  ><span>   hello</span>world</h1>    '
+  '<h1 id="title" style="background: green;"><span>hello</span>world</h1>'
 console.log('tokenizer词法解析结果:', tokenizer(sourceCode))
 ```
 
