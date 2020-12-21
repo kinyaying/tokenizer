@@ -1,6 +1,8 @@
 # jsx-tokenizer 介绍 (presentation)
 
-使用有限状态机思想将 jsx 代码处理成 tokens 片段，不校验代码的合法性。代码合法性在语法解析阶段校验。
+使用有限状态机思想进行词法解析，将 jsx 代码处理成 tokens 片段。词法解析阶段不校验代码的合法性，代码合法性在语法解析阶段校验。
+
+[有限状态机实现 JSX 词法分析](https://juejin.cn/post/6884099438781382664) 这篇博客对 jsx-tokenizer 的实现思路有更详细的介绍，感兴趣的同学可点击了解。
 
 jsx-tokenizer is written to be the example to show how to use finite-state machine mode to analysis jsx statement.
 
